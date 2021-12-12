@@ -1,9 +1,7 @@
-# [DJ LOM Website](link)
+# [Crux - Training for climbers](link)
 
 
-  
-
-
+ In this project I will create a full-stack ecommerce website to sell climbing training programs.   
 
 ## UX
 ---
@@ -13,6 +11,22 @@
 
 
 ### User Stories
+
+As a general user, I want:
+- To be able to view the site on my preferred device (mobile, tablet, desktop)
+- To be given an easy way to navigate to the content I want to view.
+- To be able to be given information that describes the intention of the website.
+- To be able to sign up as a registered user.
+- To be able to view climbing programs to purchase
+
+As a registered user, I want:
+- to have access to the forum to discuss my training
+
+
+
+As a website owner, I want:
+- The ability to edit the data displayed on the website.
+
 
 
 
@@ -61,8 +75,6 @@
 
 ### Further Testing
 ---
-- Website tested on iPhone 5SE, iPad, and Desktop
-- Website tested on Google Chrome, Safari, Microsoft Edge
 
 
 ## Deployment
