@@ -1,7 +1,7 @@
 # [Crux - Training for climbers](link)
 
 
- In this project I will create a full-stack ecommerce website to sell climbing training programs.
+ In this project I will create a full-stack ecommerce website to sell climbing training programs for a climbing club.
  The website will feature: a shop in which to buy and access pre-made training programs, a forum in which registered users can communicate, and the ability for users to become members, thus enabling all content on the website.  
 
 ## UX
