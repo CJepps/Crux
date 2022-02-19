@@ -22,3 +22,13 @@ html {
 .product-section {
     padding-top: 100px;
 }
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: rgb(53, 47, 47);
+	z-index: -1;
+}
