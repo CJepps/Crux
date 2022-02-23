@@ -29,6 +29,6 @@ html {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: rgb(53, 47, 47);
+	background: white;
 	z-index: -1;
 }
