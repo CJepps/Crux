@@ -14,7 +14,9 @@ def view_bag(request):
 
 
 def add_to_bag(request, item_id):
-    """ Add a quantity of the specified product to the shopping bag """
+    """ 
+    Add a quantity of the specified product to the shopping bag 
+    """
 
     product = Product.objects.get(pk=item_id)
     quantity = int(request.POST.get('quantity'))
@@ -30,12 +32,13 @@ def add_to_bag(request, item_id):
     request.session['bag'] = bag
     return redirect(redirect_url)
 
+
 def adjust_bag(request, item_id):
     """
     Adjust the quantity of the specified product to the specified amount
     """
 
-    product = get_object_or_404(Product, pk=item_id)
+    product = Product.objects.get(pk=item_id)
     quantity = int(request.POST.get('quantity'))
     size = None
     if 'product_size' in request.POST:
@@ -44,13 +47,13 @@ def adjust_bag(request, item_id):
 
     if size:
         if quantity > 0:
-            bag[item_id]['items_by_size'][size] = quantity
-            messages.success(request, f'Updated size {size.upper()} {product.name} quantity to {bag[item_id]["items_by_size"][size]}')
+            bag[item_id] = quantity
+            messages.success(request, f'Updated {product.name} quantity to {bag[item_id]}')
         else:
-            del bag[item_id]['items_by_size'][size]
-            if not bag[item_id]['items_by_size']:
+            del bag[item_id]
+            if not bag[item_id]:
                 bag.pop(item_id)
-            messages.success(request, f'Removed size {size.upper()} {product.name} from your bag')
+            messages.success(request, f'Removed  {product.name} from your bag')
     else:
         if quantity > 0:
             bag[item_id] = quantity
@@ -64,10 +67,12 @@ def adjust_bag(request, item_id):
 
 
 def remove_from_bag(request, item_id):
-    """Remove the item from the shopping bag"""
+    """
+    Remove the item from the shopping bag
+    """
 
     try:
-        product = get_object_or_404(Product, pk=item_id)
+        product = Product.objects.get(pk=item_id)
         size = None
         if 'product_size' in request.POST:
             size = request.POST['product_size']
