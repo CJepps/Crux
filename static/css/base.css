@@ -35,7 +35,7 @@ html {
 
 .btt-link,
 .update-link,
-.remove-item, {
+.remove-item {
     cursor: pointer;
 }
 
