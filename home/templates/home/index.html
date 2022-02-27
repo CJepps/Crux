@@ -10,17 +10,77 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black hero-image">
-                    Welcome to Crux!
-                </h1>
-            </div>
+<section class="hero-image">
+    <div class="container-fluid">
+      <div class="row no-gutters">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        </div>
+      </div>
+    </div>
+</section>
+
+<div class="container about-section">
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <h1 class="about-title">CRUX - Climb harder</h1>
+            <p>Crux was created with a mission to create stronger climbers. Perhaps you are a complete beginner and need help with the basics? 
+                Or you've hit that plateau and need help to keep crushing! Whether you're a beginner or a pro, we'll have a training plan for you.</p>
+            <p>With a huge base of active members, our forum section is packed with advice and tips on how to improve your climbing </p>
         </div>
     </div>
+
+    <div class="row">
+        {% if user.is_authenticated %}
+            <div class="col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Forum</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>Our Forum contains the latest from our members, discussing all of our training plans and giving extra tips.</p>
+                        <p>Try it out here. Perhaps you have something you'd like to discuss too?</p>
+                        <a href="" class="btn btn-primary">Forum</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h4> Our Products</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>Developed in association with coaches for team GB, we have a range of plans available for your needs</p>
+                        <p>Take a look at our options available here</p>
+                        <a href="{% url 'products' %}" class="btn btn-primary">Purchase plans</a>
+                    </div>
+                </div>
+            </div>
+        {% else %}
+            <div class="col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h4> Sign up!</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>Become part of CRUX! Driven by our community and their creations in the forums. Our members are our greatest asset and are always willing to help</p>
+                        <p>Register now to become part of your solution to better climbing.</p>
+                        <a href="{% url 'account_signup' %}" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h4> Login</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>When logged in you will have access to our forums, and can take part in rating and reviewing purchased programs.</p>
+                        <p>You will also have access to you profile page where you will be able to view all purchased plans</p>
+                        <a href="{% url 'account_login' %}" class="btn btn-primary">Login</a>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+</div>
 {% endblock %}
-
-about section   
-
-CTA to become a member or purchase plan

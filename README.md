@@ -99,4 +99,6 @@ As a website owner, I want:
 ## Credits
 ---
 ### Larger dependencies included:
+
+- The code institute tutorial for the Boutique Ado project
  
