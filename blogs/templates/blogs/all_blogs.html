@@ -22,26 +22,26 @@
             <div class="product-container col-10 offset-1">
                 <div class="row mt-1 mb-2"></div>
                 <div class="row">
-                    {% for blogs in blogss %}
+                    {% for blogss in blogs %}
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 border-0">
-                                {% if product.image %}
-                                <a href="{% url 'product_detail' product.id %}">
-                                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                                {% if blogss.image %}
+                                <a href="">
+                                    <img class="card-img-top img-fluid" src="" alt="">
                                 </a>
                                 {% else %}
-                                <a href="{% url 'product_detail' product.id %}">
-                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                <a href="">
+                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="">
                                 </a>
                                 {% endif %}
                                 <div class="card-body pb-0">
                                     <p class="mb-0">{{ blogs.title }}</p>
-                                </div>
+                                </div>s
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
-                                            <p class="lead mb-0 text-left font-weight-bold">{{ blogs.author }}</p>
-                                            <small class="text-muted">{{ blogs.date }}</small>
+                                            <p class="lead mb-0 text-left font-weight-bold">{{ blogss.author }}</p>
+                                            <small class="text-muted">{{ blogss.date }}</small>
                                         </div>
                                     </div>
                                 </div>

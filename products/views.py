@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
 from django.http import HttpResponseRedirect
-from .models import Product, CommentForm, Comment 
+from .models import Product, CommentForm, Comment
 
 # Create your views here.
 
@@ -47,10 +47,10 @@ def add_comment(request, id):
     """A view to handle review submissions."""
     url = request.META.get('HTTP_REFERER')
   
-    if request.method == 'POST':  
+    if request.method == 'POST':
         form = CommentForm(request.POST)
         if form.is_valid():
-            data = Comment()  
+            data = Comment()
             data.subject = form.cleaned_data['subject']
             data.comment = form.cleaned_data['comment']
             data.rate = form.cleaned_data['rating']
