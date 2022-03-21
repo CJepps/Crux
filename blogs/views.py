@@ -14,12 +14,12 @@ def blog(request):
     return render(request, 'blogs/all_blogs.html', context)
 
 
-def blog_detail(request, blog_id):
+def blog_detail(request, blogss_id):
     """ A view to display individual blogs """
-    blog = get_object_or_404(Blogs, pk=blog_id)
+    blog = get_object_or_404(Blogs, pk=blogss_id)
 
     context = {
         'blog': blog,
     }
 
-    return render(request, 'blogs/blog_detail.html', context)
+    return render(request, 'blogs/blog_details.html', context)
