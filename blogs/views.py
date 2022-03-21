@@ -5,8 +5,6 @@ from .models import Blogs
 
 def blog(request):
     """ A view to display all blogs """
-    # Get all the blog posts in the database and order
-    # by date
     blogs = Blogs.objects.all().order_by('-date')
 
     context = {
@@ -14,3 +12,14 @@ def blog(request):
     }
 
     return render(request, 'blogs/all_blogs.html', context)
+
+
+def blog_detail(request, blog_id):
+    """ A view to display individual blogs """
+    blog = get_object_or_404(Blogs, pk=blog_id)
+
+    context = {
+        'blog': blog,
+    }
+
+    return render(request, 'blogs/blog_detail.html', context)
