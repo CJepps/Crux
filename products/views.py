@@ -3,6 +3,7 @@ from django.contrib import messages
 from django.db.models import Q
 from django.http import HttpResponseRedirect
 from .models import Product, CommentForm, Comment
+from .forms import ProductForm
 
 # Create your views here.
 
@@ -46,7 +47,7 @@ def product_detail(request, product_id):
 def add_comment(request, id):
     """A view to handle review submissions."""
     url = request.META.get('HTTP_REFERER')
-  
+ 
     if request.method == 'POST':
         form = CommentForm(request.POST)
         if form.is_valid():
@@ -63,3 +64,14 @@ def add_comment(request, id):
             return HttpResponseRedirect(url)
 
     return HttpResponseRedirect(url)
+
+
+def add_product(request):
+    """ Add a product to the store """
+    form = ProductForm()
+    template = 'products/add_product.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
