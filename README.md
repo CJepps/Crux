@@ -22,9 +22,8 @@ As a general user, I want:
 - To view the social media accounts associated with the business.
 
 As a registered user, I want:
-- To have access to the forum, where i can view and add discussion posts and search for them using keywords.
+- To have access to blogs, where i can view admin submitted blog posts.
 - To have access to my profile page so that I can view my purchased plans.
-- To view and edit conversations I am contributing to in the forum.
 - To be able to login/logout of my account using registered details.
 - To view and edit my shopping cart when making purchases.
 
