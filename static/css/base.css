@@ -19,6 +19,26 @@ html {
 .product-section {
     padding-top: 100px;
 }
+/* ------------------------------ Home page */
+
+.main_nav {
+    padding: 0;
+}
+
+.home-cards {
+    margin-bottom: 5vh;
+}
+
+li.nav-item {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+
 
 
 /* ------------------------------- bootstrap toasts */
