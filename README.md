@@ -148,15 +148,15 @@ The following diagram shows the relationships between models.
 
 ### Validator Testing
 **HTML**
-- [W3C HTML Validator](https://validator.w3.org) - No errors. "Document checking completed. No errors or warnings to show". 
+- [W3C HTML Validator](https://validator.w3.org) - No errors. "Document checking completed. No errors or warnings to show".
+<img src="static/img/readme/html validation.jpg" alt="html valdation testing" width="800"> 
 
 
 **CSS**
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) -No errors. Validator results can be viewed [here]()
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) -No errors. Validator results can be viewed [here](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2F8000-purple-slug-7wvt7202.ws-eu38.gitpod.io%2F&usermedium=all&vextwarning=&warning=1)
 
 **JavaScript**
 - [Esprima](https://esprima.org/demo/validate.html) - No Errors. Code is syntactically valid. 
-<img src="" alt="JavaScript valdation testing" width="800">
 ---
 
 
