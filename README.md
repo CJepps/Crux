@@ -1,5 +1,5 @@
 # [Crux - Training for climbers](link)
-<img src="/workspace/Crux/static/img/readme/crux-amiresponsive.jpg">
+<img src="static/img/readme/crux-amiresponsive.jpg">
 
 
  In this project I will create a full-stack ecommerce website to sell climbing training programs for a climbing club.
