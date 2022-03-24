@@ -3,7 +3,7 @@
 
 
  In this project I will create a full-stack ecommerce website to sell climbing training programs for a climbing club.
- The website will feature: a shop in which to buy and access pre-made training programs, a forum in which registered users can communicate, and the ability for users to become members, thus enabling all content on the website.  
+ The website will feature: a shop in which to buy and access pre-made training programs, a blog in which registered users can view posts made by the website staff, and a profile in which to view purchased plans.   
 
 ## UX
 ---
@@ -19,19 +19,21 @@ As a general user, I want:
 - To be given an easy way to navigate to the content I want to view.
 - To be able to be given information that describes the intention of the website.
 - To be able to sign up as a registered user.
-- To be able to view climbing programs and memberships to purchase.
-- To view the social media accounts associated with the business.
+- To be able to view climbing programs to purchase.
+
 
 As a registered user, I want:
 - To have access to blogs, where I can view admin submitted blog posts.
 - To have access to my profile page so that I can view my purchased plans.
-- To be able to login/logout of my account using registered details.
+- To be able to log in/logout of my account using registered details.
 - To view and edit my shopping cart when making purchases.
+- To be able to securely pay for products.
+- To be able to view reviews on products, helping to inform my purchase.  
 
 
 As a website owner, I want:
 - The ability to edit the content displayed on the website.
-- To be able to login to the administrator panel.
+- To be able to log in to the administrator panel.
 
 
 
@@ -41,12 +43,12 @@ As a website owner, I want:
 
 
 
- #### Colour scheme
+#### Colour scheme
  
 
- #### Typography
+#### Typography
  
- #### Imagery
+#### Imagery
 
    
 ### Wireframes
@@ -100,10 +102,63 @@ The following diagram shows the relationships between models.
 ---
 ### Existing Features
 
+#### Base Template
+
+
+- Navbar Desktop -  
+
+- Navbar Mobile -  
+
+
+
+- Toast Messages -  
+    - Green: Success
+    - Yellow: Warning
+    - Blue: Informative
+    - Red: Errors
+
+#### Home page
+ 
+
+#### Products Page
+
+ 
+
+#### Product Detail Page
+
+
+#### Shopping Bag Page
+
+ 
+
+#### Checkout Page
+
+
+
+#### Checkout Success Page 
+
+  
+
+#### Blog Page
+
+
+#### Blog Detail Page
+ 
+
+#### Profile Page 
+
+ 
+
+### Allauth features
+- The sign up, register, password reset, email confirmation pages etc, have all been provided by Django allauth and formatted to suit the needs of the site. 
+
+### Admin Features
+
+- Admin will have access to additional features across the site.  
+
+
 ### Features left to implement 
  
-## Languages Used
----
 
 ## Technologies Used
 ## Languages
@@ -135,8 +190,7 @@ The following diagram shows the relationships between models.
 * used to test responsiveness on a range of browsers 
 12. MongoDB Atlas
 * used as a non-relational database to store backend data
-13. PyMongo 3.12.0
-* used to interact between python and MongoDB 
+
 
 ---
 
@@ -166,6 +220,32 @@ I manually tested the website with debugger.
 debug=True
 ```
 Whenever the app crashed I was able to resolve issues by going back to the routes and templates and examining the relevant code by looking at the trace backs in the debugger.
+
+### As a general user, I want:
+---
+#### To be able to view the site on my preferred device (mobile, tablet, desktop)
+#### To be given an easy way to navigate to the content I want to view.
+#### To be able to be given information that describes the intention of the website.
+#### To be able to sign up as a registered user.
+#### To be able to view climbing programs and memberships to purchase.
+
+---
+
+### As a registered user, I want:
+---
+
+#### To have access to blogs, where I can view admin submitted blog posts.
+#### To have access to my profile page so that I can view my purchased plans.
+#### To be able to log in/logout of my account using registered details.
+#### To view and edit my shopping cart when making purchases.
+#### To be able to securely pay for products
+#### To be able to view reviews on products, helping to inform my purchase. 
+---
+
+
+### As a website owner, I want:
+#### The ability to edit the content displayed on the website.
+#### To be able to log in to the administrator panel.
 
 ### CRUD functionality
 ---
