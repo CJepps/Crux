@@ -61,6 +61,7 @@ def add_comment(request, id):
             current_user = request.user
             data.user_id = current_user.id
             data.save()  # save data to table
+            
             messages.success(request, "Your review has been sent successfully ")
             return HttpResponseRedirect(url)
 
