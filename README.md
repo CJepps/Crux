@@ -304,31 +304,29 @@ Whenever the app crashed I was able to resolve issues by going back to the route
 ####
 #### To have access to blogs, where I can view admin submitted blog posts.
 - Registered users can access the blogs through the nav bar or cards on the index page
-<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+<img href="static/img/readme/screenshots/blogs-navbar.jpg" width="800">
 - Similarly to the products pages, a list of blogs will populate. The title, author, and blog picture will be displayed on a card
-<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
 - When the product card is clicked on, the user is directed to the blog details template which shows more information contained in the blog 
-<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+<img href="static/img/readme/screenshots/blogs-navbar.jpg" width="800">
 
 #### To have access to my profile page so that I can view my purchased plans.
 - Registered users can access their profile page through the navigation header
-<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+<img href="static/img/readme/screenshots/profile-link.jpg" width="800">
 - The profile will then display their purchased plans which can be clicked on to provide more product details
-<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+<img href="static/img/readme/screenshots/profile-link.jpg" width="800">
 
 #### To be able to log in/logout of my account using registered details.
 - Registered users can login through a form provided by clicking on the login link in the main navbar
-<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
-- they can also be directed to this page through a link on the registration form if they have come here in error
-<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+<img href="static/img/readme/screenshots/profile-login.jpg" width="800">
+
 - Users can enter their username and password. on a successful login, the user is then redirected back to an updated homepage.
-<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+<img href="static/img/readme/screenshots/sign-in.jpg" width="800">
 
 #### To view and edit my shopping cart when making purchases. 
 - The shopping cart is displayed in the navbar and updates with the order total when products are added to the cart.
-<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+<img href="static/img/readme/screenshots/shopping-bag-total.jpg" width="800">
 - When this is clicked, the user is taken to the shopping cart page where they can view the items in their order, update the quantity required and proceed to checkout.
-<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+<img href="static/img/readme/screenshots/checkout-final.jpg" width="800">
 
 #### To be able to securely pay for products
 - the checkout page features a form to fill out address details, an order summary, and a payment form provided by stripe
