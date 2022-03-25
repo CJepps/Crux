@@ -270,28 +270,28 @@ Whenever the app crashed I was able to resolve issues by going back to the route
 - Through the use of bootstrap and css media queries, the site is responsive across a range of different resolutions. The website was also tested on a range of browsers using lambdatest. Devtools was also utilized during development to test responsiveness at different breakpoints  
 #### To be given an easy way to navigate to the content I want to view.
 - Users are given a straightforward and easy to understand navigation bar. This persists throughout the site and is posistioned to always be in view
-<img href="static/img/readme/screenshots/mainnav-screenshot-public.jpg" width="800">
+<img src="static/img/readme/screenshots/mainnav-screenshot-public.jpg" width="800">
 - public, non-registered users are given navigation links to sign up or register and do not see links to the remainder of the site 
 - on devices with smaller screens, the navbar collapses into a hamburger icon..
-<img href="static/img/readme/screenshots/mainnav-collapsed-navbar.jpg" width="800">
+<img src="static/img/readme/screenshots/mainnav-collapsed-navbar.jpg" width="800">
 
 #### To be able to be given information that describes the intention of the website.
 - The index page features an about section underneath the main hero image which describes the purpose of the website.
-<img href="static/img/readme/screenshots/homepage-about-section.jpg" width="800">
+<img src="static/img/readme/screenshots/homepage-about-section.jpg" width="800">
 - The index page also features two information cards for signing up or logging in.
-<img href="static/img/readme/screenshots/homepage-login-cards.jpg" width="800">
+<img src="static/img/readme/screenshots/homepage-login-cards.jpg" width="800">
 
 
 
 #### To be able to sign up as a registered user.
 - Users can click either on the link in the top navbar, or in the CTA at the bottom of the index page 
-<img href="static/img/readme/screenshots/homepage-login-cards.jpg" width="800">
+<img src="static/img/readme/screenshots/homepage-login-cards.jpg" width="800">
 - they are then taken to a form to sign up 
-<img href="static/img/readme/screenshots/signup-form.jpg" width="800">
+<img src="static/img/readme/screenshots/signup-form.jpg" width="800">
 - the user is then redirected back to the homepage. A message will show to ask them to confirm their email
-<img href="static/img/readme/screenshots/email-confirmation.jpg" width="800">
+<img src="static/img/readme/screenshots/email-confirmation.jpg" width="800">
 - The user's profile is now stored in the database
-<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+<img src="static/img/readme/screenshots/django-admin-user.jpg" width="800">
 
 
 
@@ -304,35 +304,35 @@ Whenever the app crashed I was able to resolve issues by going back to the route
 ####
 #### To have access to blogs, where I can view admin submitted blog posts.
 - Registered users can access the blogs through the nav bar or cards on the index page
-<img href="static/img/readme/screenshots/blogs-navbar.jpg" width="800">
+<img src="static/img/readme/screenshots/blogs-navbar.jpg" width="800">
 - Similarly to the products pages, a list of blogs will populate. The title, author, and blog picture will be displayed on a card
 - When the product card is clicked on, the user is directed to the blog details template which shows more information contained in the blog 
-<img href="static/img/readme/screenshots/blogs-navbar.jpg" width="800">
+<img src="static/img/readme/screenshots/blogs-navbar.jpg" width="800">
 
 #### To have access to my profile page so that I can view my purchased plans.
 - Registered users can access their profile page through the navigation header
-<img href="static/img/readme/screenshots/profile-link.jpg" width="800">
+<img src="static/img/readme/screenshots/profile-link.jpg" width="800">
 - The profile will then display their purchased plans which can be clicked on to provide more product details
-<img href="static/img/readme/screenshots/profile-link.jpg" width="800">
+<img src="static/img/readme/screenshots/profile-link.jpg" width="800">
 
 #### To be able to log in/logout of my account using registered details.
 - Registered users can login through a form provided by clicking on the login link in the main navbar
-<img href="static/img/readme/screenshots/profile-login.jpg" width="800">
+<img src="static/img/readme/screenshots/profile-login.jpg" width="800">
 
 - Users can enter their username and password. on a successful login, the user is then redirected back to an updated homepage.
-<img href="static/img/readme/screenshots/sign-in.jpg" width="800">
+<img src="static/img/readme/screenshots/sign-in.jpg" width="800">
 
 #### To view and edit my shopping cart when making purchases. 
 - The shopping cart is displayed in the navbar and updates with the order total when products are added to the cart.
-<img href="static/img/readme/screenshots/shopping-bag-total.jpg" width="800">
+<img src="static/img/readme/screenshots/shopping-bag-total.jpg" width="800">
 - When this is clicked, the user is taken to the shopping cart page where they can view the items in their order, update the quantity required and proceed to checkout.
-<img href="static/img/readme/screenshots/checkout-final.jpg" width="800">
+<img src="static/img/readme/screenshots/checkout-final.jpg" width="800">
 
 #### To be able to securely pay for products
 - the checkout page features a form to fill out address details, an order summary, and a payment form provided by stripe
-<img href="static/img/readme/screenshots/checkout-form.jpg" width="800">
+<img src="static/img/readme/screenshots/checkout-form.jpg" width="800">
 - On a successfull purchase, the user is redirected to an order confirmation page
-<img href="static/img/readme/screenshots/checkout-success.jpg" width="800">
+<img src="static/img/readme/screenshots/checkout-success.jpg" width="800">
 
 
 #### To be able to view reviews on products, helping to inform my purchase.
