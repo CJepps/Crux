@@ -1,4 +1,4 @@
-# [Crux - Training for climbers](link)
+# [Crux - Training for climbers](https://cjepps-crux.herokuapp.com/)
 <img src="static/img/readme/crux-amiresponsive.jpg">
 
 
@@ -33,7 +33,7 @@ As a registered user, I want:
 
 As a website owner, I want:
 - The ability to edit the content displayed on the website.
-- To be able to log in to the administrator panel.
+
 
 
 
@@ -279,21 +279,55 @@ Whenever the app crashed I was able to resolve issues by going back to the route
 
 ####
 #### To have access to blogs, where I can view admin submitted blog posts.
+- Registered users can access the blogs through the nav bar or cards on the index page
+<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+- Similarly to the products pages, a list of blogs will populate. The title, author, and blog picture will be displayed on a card
+<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+- When the product card is clicked on, the user is directed to the blog details template which shows more information contained in the blog 
+<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+
 #### To have access to my profile page so that I can view my purchased plans.
+- Registered users can access their profile page through the navigation header
+<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+- The profile will then display their purchased plans which can be clicked on to provide more product details
+<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+
 #### To be able to log in/logout of my account using registered details.
-#### To view and edit my shopping cart when making purchases.
+- Registered users can login through a form provided by clicking on the login link in the main navbar
+<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+- they can also be directed to this page through a link on the registration form if they have come here in error
+<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+- Users can enter their username and password. on a successful login, the user is then redirected back to an updated homepage.
+<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+
+#### To view and edit my shopping cart when making purchases. 
+- The shopping cart is displayed in the navbar and updates with the order total when products are added to the cart.
+<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+- When this is clicked, the user is taken to the shopping cart page where they can view the items in their order, update the quantity required and proceed to checkout.
+<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+
 #### To be able to securely pay for products
+- the checkout page features a form to fill out address details, an order summary, and a payment form provided by stripe
+<img href="static/img/readme/screenshots/checkout-form.jpg" width="800">
+- On a successfull purchase, the user is redirected to an order confirmation page
+<img href="static/img/readme/screenshots/checkout-success.jpg" width="800">
+
+
 #### To be able to view reviews on products, helping to inform my purchase.
-#### To be able to view climbing programs and memberships to purchase. 
+- registered users are able to submit and view reviews relating to each product on the product details page
+- On successful submission of the addcomment form, the review will appear below the product for other users to see 
+#### To be able to view climbing programs and memberships to purchase.
+- Users are able to view climbing programs through the products section. They are displayed a gallery of cards containing important info about each plan. These are grouped by category, so users can search by category or keywords in the searchbar.
+- When a product card is clicked, the user is directed to the product details page which contains further information relating to the product.   
 ---
 
 
 ### As a website owner, I want:
 #### The ability to edit the content displayed on the website.
-#### To be able to log in to the administrator panel.
+- this functionality is provided in the accounts dropdown in the main nav bar. Superusers are able to view a link to product management. Here, they are given a form in which to add a new product.
+- Superusers are also given buttons on each product card where they can edit a product. A similar form to adding a product is given, prepopulated with data from the current product 
+- Superusers are also given the option to delete products. They can do this by finding the product in all products and clicking the delete button. This removes the product from the database   
 
-### CRUD functionality
----
 
 
 
