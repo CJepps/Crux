@@ -150,14 +150,19 @@ The home page has been kept relatively simple. A large hero image reinforces to 
  
 
 #### Checkout Page
-
+- features a form in which users can submit their address details
+- features an order summary, listing the products in their order 
+- features a secure payment form 
 
 
 #### Checkout Success Page 
-
+- features a success message that confirms a user's order number
+- Features an order summary confirming what was ordered and the delivery address requested 
+- a confirmation email is sent, confirming all the order details that were entered in the checkout page 
   
 
 #### Blog Page
+- Similar to the products page, this displays a list of all blogs currently on the site. If a blog image or title is selected, the user is directed to the blog detail page
 
 
 #### Blog Detail Page
@@ -175,8 +180,6 @@ The home page has been kept relatively simple. A large hero image reinforces to 
 
 - Admin will have access to additional features across the site. Within the link to 'my account' on the main navigation bar, superusers are given a product management page. Superusers are also given the option to delete/edit products from the view of all products, buttons are provided on each individual product card to do this   
 
-
-### Features left to implement 
  
 
 ## Technologies Used
