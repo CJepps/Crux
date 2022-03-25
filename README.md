@@ -44,15 +44,15 @@ As a website owner, I want:
 
 
 #### Colour scheme
+- I used a very simple color scheme with mostly white backgrounds. This decision was made in order to contrast to the main hero image and draw the eye to the products themselves. Main CTAs and links are brightly colored to aid navigation throughout the site.
  
-
-#### Typography
  
 #### Imagery
+- the main imagery of the site consists of the main hero image on the index page. I chose a large exciting image in order to inspire potential customers. Product mockups were also generated using royalty free images from Google that corresponded to the products being advertised. Icons from font awesome were also employed to help users better understand buttons in the site and what they might do.
 
    
 ### Wireframes
-You can view the wireframes used for this project [here]()
+You can view the wireframes used for this project [here](https://github.com/CJepps/Crux/tree/main/static/img/readme/wireframes)
 
 # Information Architecture
 
@@ -105,7 +105,7 @@ The following diagram shows the relationships between models.
 #### Base Template
 
 
-- Navbar Desktop -  
+- Navbar Desktop - the navbar is fully expanded on large resolutions to make maximum use of the screen. There are links to login/ signup for non-registered users. Registered users will be provided with products, blogs, and my account which contains links to the user's profile and an option to logout. A search bar is also provided here to allow users to quickly find areas of the site by searching with keywords  
 
 - Navbar Mobile -  
 
@@ -143,18 +143,19 @@ The following diagram shows the relationships between models.
 
 
 #### Blog Detail Page
+- the blog detail page provides a template from which information submitted by an admin can be rendered. 
  
 
 #### Profile Page 
-
+- the profile page provides a list of all purchased plans for the user in question. This allows users to quickly find details about their plan 
  
 
 ### Allauth features
-- The sign up, register, password reset, email confirmation pages etc, have all been provided by Django allauth and formatted to suit the needs of the site. 
+- The sign up, register, password reset, email confirmation pages etc, have all been provided by Django allauth and customised to suit the needs of the site where required.
 
 ### Admin Features
 
-- Admin will have access to additional features across the site.  
+- Admin will have access to additional features across the site. Within the link to 'my account' on the main navigation bar, superusers are given a product management page. Superusers are also given the option to delete/edit products from the view of all products, buttons are provided on each individual product card to do this   
 
 
 ### Features left to implement 
