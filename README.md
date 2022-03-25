@@ -733,4 +733,5 @@ Note: Alternatively you can select the "Download Zip" option from the dropdown m
 ### Larger dependencies included:
 
 - The code institute tutorial for the Boutique Ado project
+- TawnyGoody's Tarmachan project for inspiration and layout of blogs pages [here](https://github.com/Tawnygoody/Tarmachan)
  
