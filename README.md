@@ -243,22 +243,45 @@ Whenever the app crashed I was able to resolve issues by going back to the route
 ### As a general user, I want:
 ---
 #### To be able to view the site on my preferred device (mobile, tablet, desktop)
+- Through the use of bootstrap and css media queries, the site is responsive across a range of different resolutions. The website was also tested on a range of browsers using lambdatest. Devtools was also utilized during development to test responsiveness at different breakpoints  
 #### To be given an easy way to navigate to the content I want to view.
+- Users are given a straightforward and easy to understand navigation bar. This persists throughout the site and is posistioned to always be in view
+<img href="static/img/readme/screenshots/mainnav-screenshot-public.jpg" width="800">
+- public, non-registered users are given navigation links to sign up or register and do not see links to the remainder of the site 
+- on devices with smaller screens, the navbar collapses into a hamburger icon..
+<img href="static/img/readme/screenshots/mainnav-collapsed-navbar.jpg" width="800">
+
 #### To be able to be given information that describes the intention of the website.
+- The index page features an about section underneath the main hero image which describes the purpose of the website.
+<img href="static/img/readme/screenshots/homepage-about-section.jpg" width="800">
+- The index page also features two information cards for signing up or logging in.
+<img href="static/img/readme/screenshots/homepage-login-cards.jpg" width="800">
+
+
+
 #### To be able to sign up as a registered user.
-#### To be able to view climbing programs and memberships to purchase.
+- Users can click either on the link in the top navbar, or in the CTA at the bottom of the index page 
+<img href="static/img/readme/screenshots/homepage-login-cards.jpg" width="800">
+- they are then taken to a form to sign up 
+<img href="static/img/readme/screenshots/signup-form.jpg" width="800">
+- the user is then redirected back to the homepage. A message will show to ask them to confirm their email
+<img href="static/img/readme/screenshots/email-confirmation.jpg" width="800">
+
+
 
 ---
 
 ### As a registered user, I want:
 ---
 
+####
 #### To have access to blogs, where I can view admin submitted blog posts.
 #### To have access to my profile page so that I can view my purchased plans.
 #### To be able to log in/logout of my account using registered details.
 #### To view and edit my shopping cart when making purchases.
 #### To be able to securely pay for products
-#### To be able to view reviews on products, helping to inform my purchase. 
+#### To be able to view reviews on products, helping to inform my purchase.
+#### To be able to view climbing programs and memberships to purchase. 
 ---
 
 

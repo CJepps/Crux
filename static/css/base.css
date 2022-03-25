@@ -266,6 +266,11 @@ input[name='q']::placeholder {
 	color: #17a2b8; /* text-info */
 }
 
+#signup-form {
+    text-align: -webkit-center;
+    padding-top: 20vh;
+}
+
 /* Product Form */
 
 .btn-file {
