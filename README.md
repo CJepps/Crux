@@ -266,6 +266,9 @@ Whenever the app crashed I was able to resolve issues by going back to the route
 <img href="static/img/readme/screenshots/signup-form.jpg" width="800">
 - the user is then redirected back to the homepage. A message will show to ask them to confirm their email
 <img href="static/img/readme/screenshots/email-confirmation.jpg" width="800">
+- The user's profile is now stored in the database
+<img href="static/img/readme/screenshots/django-admin-user.jpg" width="800">
+
 
 
 
