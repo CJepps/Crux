@@ -203,15 +203,36 @@ The home page has been kept relatively simple. A large hero image reinforces to 
 7. Balsamiq
 * Used to create wireframes at the start of the project
 8. jQuery 
-* included with bootstrap. 
-9. [Googlefonts CDN](https://fonts.google.com/) 
-* used to import 'Righteous' and 'Montserrat' fonts to style text
+* included with bootstrap
 10. [amiresponsive](http://ami.responsivedesign.is/)
 * used to create mockups of the website at different resolutions (for the first image of readme)
 11. LambdaTest
 * used to test responsiveness on a range of browsers 
 12. MongoDB Atlas
 * used as a non-relational database to store backend data
+13. [Django](https://www.djangoproject.com/)
+* This was the primary framework used for the project
+14. [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+* This has been used to render the forms on the site.
+15. [Django Allauth](https://django-allauth.readthedocs.io/en/latest/index.html)
+* This has been used for user authentication on the site.
+16. [Django Countries](https://pypi.org/project/django-countries/)
+* Used to populate the countries select field on the order form and profile form
+17. [Stripe](https://stripe.com/gb)
+* used to handle payments.
+18. [Amazon Web Services](https://aws.amazon.com/)
+* Used to store all static files and images
+19. [SQLite](https://www.sqlite.org/index.html)
+* Database used in development
+20. [PostgreSQL](https://www.postgresql.org/)
+* Database used in production
+21. [Heroku](https://id.heroku.com/login)
+* Online  Platform used to deploy the live site
+22. [Gunicorn](https://gunicorn.org/)
+*  for deploying the project to Heroku    
+23. [Dbdiagram](https://dbdiagram.io/home) 
+*  Used to create the database schema illustration.
+
 
 
 ---
