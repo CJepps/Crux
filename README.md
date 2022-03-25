@@ -105,29 +105,47 @@ The following diagram shows the relationships between models.
 #### Base Template
 
 
-- Navbar Desktop - the navbar is fully expanded on large resolutions to make maximum use of the screen. There are links to login/ signup for non-registered users. Registered users will be provided with products, blogs, and my account which contains links to the user's profile and an option to logout. A search bar is also provided here to allow users to quickly find areas of the site by searching with keywords  
+- Navbar Desktop - the navbar is fully expanded on large resolutions to make maximum use of the screen. There are links to login/ signup for non-registered users. Registered users will be provided with products, blogs, and my account which contains links to the user's profile and an option to logout. A search bar is also provided here to allow users to quickly find areas of the site by searching with keywords. On adding items to the shopping bag, a running total is also displayed with the option to checkout.   
 
-- Navbar Mobile -  
+- Navbar Mobile - All smaller screens the navbar collapses into a hamburger icon. When clicked on, this expands into a dropdown menu containing all the navigation links from above. This is a standard design choice for most websites in order to give mobile use maximum screen space for other vital components of the website.  
 
 
 
-- Toast Messages -  
+- Toast Messages - Toast messages were employed to give the user feedback on actions they were taking in the site. These were colour coded to aid comprehension.
     - Green: Success
     - Yellow: Warning
     - Blue: Informative
     - Red: Errors
 
 #### Home page
+
+The home page has been kept relatively simple. A large hero image reinforces to the user that this website is about rock climbing. There is a small about section that informs users about the purpose of the website. Directly below this are two cards that contain Calls to action. These links will change depending on whether the user is registered or not. Non-registered = login/sign up. Registered  = Blogs/Products.  
  
 
 #### Products Page
+- features a searchbar that allows users to locate their plan through keywords or by category of product 
+- Gallery of cards displays products, showing product image, and basic information about the product such as price and rating 
+- each card is a link to the detail page of the product
+- Gallery is responsive so that on smaller screen sizes there are fewer product cards in each row. 
 
  
 
 #### Product Detail Page
+- features a large image of the training plan alongside a description on details of the plan.
+- a quantity selector is also provided to select the required quantity of product before ordering. This may seem strange as you would only buy 1 plan usually. I've included this so that there is the possibility of the site selling physical goods.
+- Review section containing a list of previous reviews and a form in which to submit your own review of the product. This can only be done by registered users 
+- keep shopping button returns users back to the main products page
+- Add to bag button saves the product with whatever quantity was selected to the shopping bag   
 
 
 #### Shopping Bag Page
+    - Product image displays an image of the product the user has added to their bag. 
+    - Product info section displays the name of the product, product sku, and product price  
+    - Quantity button - Users can update their order using the quantity selectors and the update button. Users can remove their plan from their shopping bag  by clicking the remove button. 
+    
+- Underneath the products that are in the user's bag, users are provided information for bag total, delivery and grand total. 
+- users are provided a button to take the users back to the all product page, and a Secure Checkout button to take the user to the checkout page. 
+ 
 
  
 
